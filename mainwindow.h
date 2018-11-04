@@ -23,8 +23,6 @@ private slots:
 
     void on_InfoButton_clicked();
 
-    void on_StopButton_clicked();
-
     void on_cb_account_clicked(bool checked);
 
     void on_cb_filesystem_clicked(bool checked);
@@ -44,6 +42,7 @@ private slots:
 private:
     Ui::MainWindow *ui;
         int p_max{0};
+        int p_value{0};
 };
 
 #endif // MAINWINDOW_H
